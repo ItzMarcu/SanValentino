@@ -1,0 +1,79 @@
+
+@import url('https://fonts.cdnfonts.com/css/secondasoft');
+
+body {
+    background-color:#ffddf7;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 240px;
+    height: 200px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 2%;
+}
+
+p {
+    font-family: 'SecondaSoft-Black', sans-serif;
+    font-size: xx-large;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+button#no {
+    width: 200px;
+    height: 70px;
+    border: 2px solid #000;
+    background-color: #f36d5f;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    font-size: xx-large;
+    font-family: 'SecondaSoft-Black', sans-serif;
+}
+
+button#yes {
+    width: 200px;
+    height: 70px;
+    border: 2px solid #000;
+    background-color: #f36d5f;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    font-size: xx-large;
+    font-family: 'SecondaSoft-Black', sans-serif;
+}
+
+button:hover {
+    filter: drop-shadow(1px 1px 20px #fff);
+    -webkit-filter: drop-shadow(1px 1px 20px #fff);
+}
